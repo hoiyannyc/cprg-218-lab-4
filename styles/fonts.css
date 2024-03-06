@@ -1,0 +1,56 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.1;
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+h4, h5, h6 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+
+button {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.fas {
+  font-size: 1.1rem;
+  transition: transform 0.3s ease-in-out;
+}

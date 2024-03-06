@@ -1,0 +1,158 @@
+/* Hero Styles */
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.hero-image {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  z-index: 1; 
+}
+
+/* Content Styles */
+.content-container {
+  height: 600px;
+  display: flex; 
+  border-radius: 10px;
+  object-fit: cover;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; 
+  height: auto;
+  padding: 20px;
+}
+
+.content-image {
+  width: auto; 
+  height: auto; 
+  object-fit: cover;
+}
+
+.content-section {
+  padding: 50px 0;
+  background-color: #f5f5f5;
+}
+
+.content-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.content-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+
+.content-button:hover {
+  color: white;
+  background-color: rgb(97, 126, 138);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Accordion Styles */
+.accordion-container {
+  width: 100%;
+  background-color: ghostwhite;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: ghostwhite;
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-content {
+  padding: 20px;
+  background-color: ghostwhite;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  color: black;
+}
+
+.active .accordion-content {
+  max-height: 100px; 
+}
+
+.active .arrow { 
+  transform: rotate(180deg);
+}
+
+/* Footer Styles */
+footer {
+  background-color: black; 
+  color: white;
+  padding: 20px 0; 
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; 
+  margin: 0 auto; 
+}
+
+.list,
+.map {
+  flex: 1; 
+  list-style: none; 
+  padding: 10px; 
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.copyright {
+  text-align: center; 
+  margin-top: 20px; 
+  font-size: 14px;
+}
+
+span {
+  text-align: right;
+}
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: grey;
+}

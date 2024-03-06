@@ -1,0 +1,137 @@
+/* Mobile */
+@media screen and (min-width: 390px) {
+    .accordion-container {
+        width: 80%;
+        background-color: ghostwhite;
+        padding: 0.5em;
+        border-radius: 10px;
+    }
+    .hero-container {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+      }
+
+    .hero-content {
+        padding: 5px;
+    }
+    .hero-image {
+        width: auto; 
+        height: 100%; 
+        align-items: center;
+        object-fit: cover;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 60%; 
+        margin: 10px auto; 
+        align-items: center;
+    }
+    iframe {
+        width: 360px;
+        margin: 2rem;
+    }
+    footer {
+        align-items: center;
+    }
+    .list {
+        display: inline-block;
+        text-align: center;
+    }
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center; 
+        height: auto;
+        padding: 20px;
+    }
+    .content-image {
+        width: 300px; 
+        height: auto; 
+        margin: 10px;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px)  {
+    .accordion-container {
+        width: 60%;
+        background-color: ghostwhite;
+        padding: 2em;
+        border-radius: 10px;
+    }
+    .hero-image {
+        width: auto; 
+        height: 100%; 
+        align-items: center;
+        object-fit: cover;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 60%; 
+        margin: 10px auto; 
+        align-items: center;
+    }
+    iframe {
+        width: 600px;
+        margin: 2rem;
+    }
+    footer {
+        align-items: center;
+    }
+    .list {
+        display: inline-block;
+        text-align: center;
+    }
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center; 
+        height: auto;
+        padding: 20px;
+    }
+    .content-image {
+        width: 700px; 
+        height: auto; 
+        margin: 10px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    .content-container {
+        height: 600px;
+        display: flex; 
+        border-radius: 10px;
+        object-fit: cover;
+      } 
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center; 
+        height: auto;
+        padding: 20px;
+    }
+    .content-image {
+        width: 700px; 
+        height: auto;
+        margin: 10px;
+    }
+    .hero-image {
+        width: 100%; 
+        height: 100%; 
+        align-items: center;
+        object-fit: cover;
+    }
+}
